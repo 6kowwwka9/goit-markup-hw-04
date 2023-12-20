@@ -231,7 +231,7 @@ background-color: #2E2F42;
 /* second section */
 .our-team.container {
 
-
+display: flex;
 
 
 
@@ -345,9 +345,9 @@ background-color: #2E2F42;
         
 }
 .socials {
+    gap: 24px;
     display: flex;
     justify-content: center;
-    gap: 24px;
     align-items: center;
     margin-top: 8px;    
 }
@@ -499,7 +499,7 @@ h3 {
 
 /*   footer   */
 
-.footer .container {
+.footer.container {
     display: flex;
     align-items: baseline;
 
@@ -561,10 +561,8 @@ h3 {
     height: 40px;
 
 }
-.socials-icon {
-    width: 24;
-    height: 24;
-}
+
+
 .link-footer {
     display: inline-block;
     margin-bottom: 16px;
