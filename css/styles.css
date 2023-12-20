@@ -259,8 +259,9 @@ display: flex;
     left: 100px;
     
 }
+
 .container-icon {
-   
+        display: flex;
         align-items: center;
         justify-content: center;
     
