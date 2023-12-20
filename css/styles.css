@@ -163,15 +163,17 @@ color: #4D5AE5;
 }
 
 /*   main    */
+
+
 .hero-section {
-     
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 188px 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 188px 0;
+    
 }
 .hero-container {
     
@@ -228,10 +230,11 @@ background-color: #2E2F42;
 
 /* second section */
 .our-team.container {
-margin-bottom: 8px;
-display: flex;
-align-items: center;
-justify-content: center;
+
+
+
+
+
 }
 .section-two {
     padding: 120px 0;
@@ -257,11 +260,17 @@ justify-content: center;
     
 }
 .container-icon {
+   
+        align-items: center;
+        justify-content: center;
+    
+        
     width: 264px;
     height: 112px;
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid #8E8F99;
+    margin-bottom: 8px;
     background: #F4F4FD;
     
 }
@@ -338,8 +347,8 @@ justify-content: center;
 .socials {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 24px;
+    align-items: center;
     margin-top: 8px;    
 }
 .socials-item {
@@ -430,9 +439,10 @@ h3 {
 .portfolio {
     width: calc((100% - 48px) / 3);
     border: 1px solid #F4F4FD;
-        background: #FFF;
-        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       
 }
 .portfolio-cards {
     padding: 32px 16px;
@@ -551,6 +561,10 @@ h3 {
     height: 40px;
 
 }
+.socials-icon {
+    width: 24;
+    height: 24;
+}
 .link-footer {
     display: inline-block;
     margin-bottom: 16px;
@@ -566,14 +580,14 @@ h3 {
         color: #F4F4FD;
         transition-property: color;
             transition-duration: 250ms;
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             transition-delay: 0s;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     }
     
     .footer-socials-link:hover,
     .footer-socials-link:focus {
-        background-color: #4d5ae5,
+    background-color: #31d0aa;
 }
 /*
 .section-four-conteiner {
