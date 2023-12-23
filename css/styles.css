@@ -423,6 +423,7 @@ h3 {
 
 
 
+
 /* fourth section */
 
 .section-four {
@@ -563,11 +564,13 @@ h3 {
     justify-content: center;
 
 }
-.socials {
-    display: flex;
-    gap: 16px;
+.footer-socials {
     
-
+            display: flex;
+            gap: 16px;
+    
+    
+        
 }
 .socials-item {
     width: 40px;
